@@ -53,10 +53,12 @@ packages:
   image:
     dependency: "direct main"
     description:
-      name: image
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.1.4"
+      path: "."
+      ref: HEAD
+      resolved-ref: "2d75701b13f6e175efd7725f3addfeebc0a2d30f"
+      url: "https://github.com/ram231/image.git"
+    source: git
+    version: "2.1.14"
   meta:
     dependency: transitive
     description:
@@ -84,7 +86,7 @@ packages:
       name: petitparser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.4.0"
+    version: "3.0.4"
   source_span:
     dependency: transitive
     description:
@@ -119,7 +121,7 @@ packages:
       name: xml
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.5.0"
+    version: "4.2.0"
   yaml:
     dependency: "direct main"
     description:
@@ -128,4 +130,4 @@ packages:
     source: hosted
     version: "2.1.16"
 sdks:
-  dart: ">=2.4.0 <3.0.0"
+  dart: ">=2.7.0 <3.0.0"

@@ -9,7 +9,11 @@ environment:
 
 dependencies:
   yaml: ^2.1.16
-  image: ^2.1.4
+  # Similar to xml ^3.2.5 issue on fluttercommunity/flutter_launcher_icons
+  # https://github.com/fluttercommunity/flutter_launcher_icons/issues/178
+  image:
+    git:
+      url: https://github.com/ram231/image.git
   color: ^2.1.1
 
 dev_dependencies:
