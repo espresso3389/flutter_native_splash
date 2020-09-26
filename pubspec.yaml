@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   yaml: ^2.1.16
-  image:
+  image: ^2.1.18
   color: ^2.1.1
 
 dev_dependencies:
