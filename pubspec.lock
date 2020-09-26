@@ -53,11 +53,9 @@ packages:
   image:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "2d75701b13f6e175efd7725f3addfeebc0a2d30f"
-      url: "https://github.com/ram231/image.git"
-    source: git
+      name: image
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "2.1.14"
   meta:
     dependency: transitive
